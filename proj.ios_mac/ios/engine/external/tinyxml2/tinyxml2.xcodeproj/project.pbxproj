@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7B32AA9B01E04894A8BBB5F0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CCAC4FDF301E49B8943E4730 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				D8682CC891CF4FC6A3B34F63 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F5EBF892A56949FC968B799A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 013209162E634E0FB029F135 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				EC473FF2CBB94EC194CAED20 /* CMake Rules */,
+			);
+			dependencies = (
+				8495A6789F1342AB9BAD7906 /* PBXTargetDependency */,
+				2D0657D6DF324974A087A7AE /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5EA61128D0474FDA880AFF3B /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = 71DC70B1C8634D0694F13E99 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/tinyxml2.cpp */; };
+		6A3360AD214946E19E9F7050 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = EB297932F64543CEA57B308D /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */; };
+		D58149BA0AE04F43A993589B /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0A1E79757396444EB980AF84 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		201CD2F3AA834F528003B3C4 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		495E4EC4220747A797FBE8A3 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		55A705A37A1D4649A7166756 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		F04EFC8F461040BA94AA9BEE /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		6C2C69D4BABA412E817BF46C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6799CDBE1CDD49AAB1EF2289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B32AA9B01E04894A8BBB5F0;
+			remoteInfo = ZERO_CHECK;
+		};
+		ECE5091E10E64F23906B78C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6799CDBE1CDD49AAB1EF2289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D081FC03C4F4811820BCE90;
+			remoteInfo = ext_tinyxml2;
+		};
+		EED058D4CBB34E9ABA952A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6799CDBE1CDD49AAB1EF2289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B32AA9B01E04894A8BBB5F0;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A1E79757396444EB980AF84 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5B67E63AFE1F4948B939341E /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		71DC70B1C8634D0694F13E99 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		B0FDBBDA95144EB3AA2F180B /* ext_tinyxml2 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_tinyxml2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB297932F64543CEA57B308D /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../proj.ios_mac/ios/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		06CEB7DA6F6D42A1A9374000 = {
+			isa = PBXGroup;
+			children = (
+				3F7A06667C6948F1AB62F8C0 /* External */,
+				3A81297AF489493EA5840AA2 /* ALL_BUILD */,
+				14CCFF06DF5F40EB8BAE4F27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14CCFF06DF5F40EB8BAE4F27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0FDBBDA95144EB3AA2F180B /* ext_tinyxml2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2179ADA521F9400688FC1A91 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3A6F22A680EA48049C6436F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB297932F64543CEA57B308D /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3A81297AF489493EA5840AA2 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				2179ADA521F9400688FC1A91 /* CMake Rules */,
+				5B67E63AFE1F4948B939341E /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		3F7A06667C6948F1AB62F8C0 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				A615F6B490D040819CE326BD /* ext_tinyxml2 */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		A615F6B490D040819CE326BD /* ext_tinyxml2 */ = {
+			isa = PBXGroup;
+			children = (
+				B5E5E9F303D240DC850584A2 /* Source Files */,
+				3A6F22A680EA48049C6436F0 /* Resources */,
+				0A1E79757396444EB980AF84 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/CMakeLists.txt */,
+			);
+			name = ext_tinyxml2;
+			sourceTree = "<group>";
+		};
+		B5E5E9F303D240DC850584A2 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				71DC70B1C8634D0694F13E99 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D081FC03C4F4811820BCE90 /* ext_tinyxml2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D3000838F4840FF8589E5FF /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */;
+			buildPhases = (
+				05D959B6751E461492DE2872 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADEB87B174744DC3AAEE0D3E /* PBXTargetDependency */,
+			);
+			name = ext_tinyxml2;
+			productName = ext_tinyxml2;
+			productReference = B0FDBBDA95144EB3AA2F180B /* ext_tinyxml2 */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6799CDBE1CDD49AAB1EF2289 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1150;
+			};
+			buildConfigurationList = 704526FDFF214CF7B5D1FBC5 /* Build configuration list for PBXProject "tinyxml2" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				495E4EC4220747A797FBE8A3 /* Debug */,
+				55A705A37A1D4649A7166756 /* Release */,
+				201CD2F3AA834F528003B3C4 /* MinSizeRel */,
+				F04EFC8F461040BA94AA9BEE /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 06CEB7DA6F6D42A1A9374000;
+			projectDirPath = ../../../../../cocos2d/external/tinyxml2;
+			projectRoot = "";
+			targets = (
+				F5EBF892A56949FC968B799A /* ALL_BUILD */,
+				7B32AA9B01E04894A8BBB5F0 /* ZERO_CHECK */,
+				8D081FC03C4F4811820BCE90 /* ext_tinyxml2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A5ABD230BF942B4820A5C39 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		83B21F0FA81F49B9B62A9853 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D8682CC891CF4FC6A3B34F63 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2 -f /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		EC473FF2CBB94EC194CAED20 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2 -f /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05D959B6751E461492DE2872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA61128D0474FDA880AFF3B /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D0657D6DF324974A087A7AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D081FC03C4F4811820BCE90 /* ext_tinyxml2 */;
+			targetProxy = ECE5091E10E64F23906B78C3 /* PBXContainerItemProxy */;
+		};
+		8495A6789F1342AB9BAD7906 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B32AA9B01E04894A8BBB5F0 /* ZERO_CHECK */;
+			targetProxy = EED058D4CBB34E9ABA952A01 /* PBXContainerItemProxy */;
+		};
+		ADEB87B174744DC3AAEE0D3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B32AA9B01E04894A8BBB5F0 /* ZERO_CHECK */;
+			targetProxy = 6C2C69D4BABA412E817BF46C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02EDC866836B48AEAEE9D43D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0B97FDD36074442F8A1C8FE6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2B96736FB86149BF9D8C2ED7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3027C251A04F456186AE4CED /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		315C7A8D7F124C5681302878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4BD1EB1A11234824BED457E9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2/build;
+			};
+			name = MinSizeRel;
+		};
+		52CE045AB2154385B7916069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5310C14ABAC94B3BAA7E65A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2/build;
+			};
+			name = Debug;
+		};
+		6AC40B29E65D491BB98A2896 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		82043AB6299B45CEB9D3F606 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2/build;
+			};
+			name = RelWithDebInfo;
+		};
+		8FD17D26E3B54007A20EDF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A1D5C77DAACA4A6DAAE3CFAE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AFF5207A237E45CFB5E2012B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B9C22DD2C40C4BB2A63A59F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C6A09466C23E47188162D611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F70E5B91F31F4C31BDE6EF43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2/build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		013209162E634E0FB029F135 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CE045AB2154385B7916069 /* Debug */,
+				315C7A8D7F124C5681302878 /* Release */,
+				02EDC866836B48AEAEE9D43D /* MinSizeRel */,
+				0B97FDD36074442F8A1C8FE6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2D3000838F4840FF8589E5FF /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF5207A237E45CFB5E2012B /* Debug */,
+				C6A09466C23E47188162D611 /* Release */,
+				2B96736FB86149BF9D8C2ED7 /* MinSizeRel */,
+				A1D5C77DAACA4A6DAAE3CFAE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		704526FDFF214CF7B5D1FBC5 /* Build configuration list for PBXProject "tinyxml2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5310C14ABAC94B3BAA7E65A5 /* Debug */,
+				F70E5B91F31F4C31BDE6EF43 /* Release */,
+				4BD1EB1A11234824BED457E9 /* MinSizeRel */,
+				82043AB6299B45CEB9D3F606 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CCAC4FDF301E49B8943E4730 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD17D26E3B54007A20EDF20 /* Debug */,
+				B9C22DD2C40C4BB2A63A59F6 /* Release */,
+				3027C251A04F456186AE4CED /* MinSizeRel */,
+				6AC40B29E65D491BB98A2896 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6799CDBE1CDD49AAB1EF2289 /* Project object */;
+}

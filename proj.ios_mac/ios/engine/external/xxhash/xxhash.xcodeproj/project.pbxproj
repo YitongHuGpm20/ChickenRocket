@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7B32AA9B01E04894A8BBB5F0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7F41AE8C8E764496BDAA78B1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A84E785810724AB1A02FBBFA /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F5EBF892A56949FC968B799A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 676FA766555C4D77AFB7F1FB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				FE42887A37FB4FD3B7D108FF /* CMake Rules */,
+			);
+			dependencies = (
+				F5DC1EDEC53F417C9D0E566E /* PBXTargetDependency */,
+				CF28F854F444446FB59ED47D /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		7B5B8E5A26A049969C7533B6 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXBuildFile; fileRef = 42F7116BC4F84D8EB0BAE570 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/xxhash.c */; };
+		93637D048C0D4D9C886ECE76 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = C2C21A729C904F8F8EC26830 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */; };
+		AB04034B654541C29CD01A94 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 888DBE3F94E74AA1B6B9C6E7 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		147D01E3BD2542649260A418 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		47BB49CB609443A9B1F39147 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		606B8DD33D14412BB2CE8D73 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		77EC12986B574B1086DBCE01 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2894C41DDC5A48D39CB359D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78AE14AE58E940A78A196059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B32AA9B01E04894A8BBB5F0;
+			remoteInfo = ZERO_CHECK;
+		};
+		67386C84F67E4CDB82C74B95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78AE14AE58E940A78A196059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40219C60140A4D87B56F2095;
+			remoteInfo = ext_xxhash;
+		};
+		D3BFEA55DC4E49DE9A509C5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78AE14AE58E940A78A196059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B32AA9B01E04894A8BBB5F0;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3869C0F4692C4329A6A0732C /* ext_xxhash */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxhash.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F7116BC4F84D8EB0BAE570 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xxhash.c; path = xxhash.c; sourceTree = SOURCE_ROOT; };
+		888DBE3F94E74AA1B6B9C6E7 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A1ECF7A90A2E4D0B90688319 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C2C21A729C904F8F8EC26830 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../../proj.ios_mac/ios/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1B3FA9B0C0B54437BA068192 /* ext_xxhash */ = {
+			isa = PBXGroup;
+			children = (
+				F1D49EB9D94349FE8A7C08A7 /* Source Files */,
+				9947AA3E066244079055F519 /* Resources */,
+				888DBE3F94E74AA1B6B9C6E7 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/CMakeLists.txt */,
+			);
+			name = ext_xxhash;
+			sourceTree = "<group>";
+		};
+		713492BA07834CA390D1A81C /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				EC711EE8CE104B6AAC4B4757 /* CMake Rules */,
+				A1ECF7A90A2E4D0B90688319 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		87C71919658340F18F5AE39D /* External */ = {
+			isa = PBXGroup;
+			children = (
+				1B3FA9B0C0B54437BA068192 /* ext_xxhash */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		95BD897A4CBD425CAB3F83DF = {
+			isa = PBXGroup;
+			children = (
+				87C71919658340F18F5AE39D /* External */,
+				713492BA07834CA390D1A81C /* ALL_BUILD */,
+				EED9815E5DB44C04ACF5D5DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9947AA3E066244079055F519 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2C21A729C904F8F8EC26830 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EC711EE8CE104B6AAC4B4757 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		EED9815E5DB44C04ACF5D5DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3869C0F4692C4329A6A0732C /* ext_xxhash */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1D49EB9D94349FE8A7C08A7 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				42F7116BC4F84D8EB0BAE570 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/xxhash.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40219C60140A4D87B56F2095 /* ext_xxhash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B30C56790D24FC599FC5989 /* Build configuration list for PBXNativeTarget "ext_xxhash" */;
+			buildPhases = (
+				AB85939A57F341E0A2E7C4E0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADD94FE1DF0A4CC8AC262ECE /* PBXTargetDependency */,
+			);
+			name = ext_xxhash;
+			productName = ext_xxhash;
+			productReference = 3869C0F4692C4329A6A0732C /* ext_xxhash */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78AE14AE58E940A78A196059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1150;
+			};
+			buildConfigurationList = BA69287F4F94414DB8A5D643 /* Build configuration list for PBXProject "xxhash" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				147D01E3BD2542649260A418 /* Debug */,
+				606B8DD33D14412BB2CE8D73 /* Release */,
+				47BB49CB609443A9B1F39147 /* MinSizeRel */,
+				77EC12986B574B1086DBCE01 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 95BD897A4CBD425CAB3F83DF;
+			projectDirPath = ../../../../../cocos2d/external/xxhash;
+			projectRoot = "";
+			targets = (
+				F5EBF892A56949FC968B799A /* ALL_BUILD */,
+				7B32AA9B01E04894A8BBB5F0 /* ZERO_CHECK */,
+				40219C60140A4D87B56F2095 /* ext_xxhash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1311CA2EE7264EEA9BF53A97 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8B09D9BBD03946E8B49197BF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A84E785810724AB1A02FBBFA /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash -f /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		FE42887A37FB4FD3B7D108FF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash -f /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB85939A57F341E0A2E7C4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B5B8E5A26A049969C7533B6 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/xxhash.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADD94FE1DF0A4CC8AC262ECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B32AA9B01E04894A8BBB5F0 /* ZERO_CHECK */;
+			targetProxy = D3BFEA55DC4E49DE9A509C5B /* PBXContainerItemProxy */;
+		};
+		CF28F854F444446FB59ED47D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40219C60140A4D87B56F2095 /* ext_xxhash */;
+			targetProxy = 67386C84F67E4CDB82C74B95 /* PBXContainerItemProxy */;
+		};
+		F5DC1EDEC53F417C9D0E566E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B32AA9B01E04894A8BBB5F0 /* ZERO_CHECK */;
+			targetProxy = 2894C41DDC5A48D39CB359D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17720152475040C28EDF98B7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		286F1BC6A4274FE2BC6F7E9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2BB317A83BDF4B9880B274F5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash/build;
+			};
+			name = RelWithDebInfo;
+		};
+		3F9113CA7C72470CA0F3C312 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		45DC7CFDC61241E9B1EB6982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		46534A982D21423595DFEB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash/build;
+			};
+			name = Release;
+		};
+		47CC0F1F20354AA583A99E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4C90FB51666F426D8A2B3062 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7FA80E7D672440509CDA6D72 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9302289E108C4949B44F89C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B64874A27965439A9AD3C324 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C31F3AFBFFBF4AF8B95B53FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CDCF347C6A644536A1F62BA5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash/build;
+			};
+			name = MinSizeRel;
+		};
+		E25DDBFCEC0F42BDB8EAA3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F7263C77850443959EBA5D95 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F9CD5B64CC9D4371AF689918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash/build;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		676FA766555C4D77AFB7F1FB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9302289E108C4949B44F89C1 /* Debug */,
+				C31F3AFBFFBF4AF8B95B53FD /* Release */,
+				17720152475040C28EDF98B7 /* MinSizeRel */,
+				4C90FB51666F426D8A2B3062 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6B30C56790D24FC599FC5989 /* Build configuration list for PBXNativeTarget "ext_xxhash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DC7CFDC61241E9B1EB6982 /* Debug */,
+				286F1BC6A4274FE2BC6F7E9E /* Release */,
+				3F9113CA7C72470CA0F3C312 /* MinSizeRel */,
+				7FA80E7D672440509CDA6D72 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7F41AE8C8E764496BDAA78B1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CC0F1F20354AA583A99E46 /* Debug */,
+				E25DDBFCEC0F42BDB8EAA3CC /* Release */,
+				B64874A27965439A9AD3C324 /* MinSizeRel */,
+				F7263C77850443959EBA5D95 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BA69287F4F94414DB8A5D643 /* Build configuration list for PBXProject "xxhash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9CD5B64CC9D4371AF689918 /* Debug */,
+				46534A982D21423595DFEB61 /* Release */,
+				CDCF347C6A644536A1F62BA5 /* MinSizeRel */,
+				2BB317A83BDF4B9880B274F5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78AE14AE58E940A78A196059 /* Project object */;
+}

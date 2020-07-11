@@ -1,0 +1,2854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7B32AA9B01E04894A8BBB5F0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C51D5A1CC73F42A7BB30EAEB /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				4E607140AFC744498C914E16 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F5EBF892A56949FC968B799A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B8370FF97D714D98B2009E77 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				819566EF00AB4FD194F6FD29 /* CMake Rules */,
+			);
+			dependencies = (
+				0836D689E2BF4A45833EF195 /* PBXTargetDependency */,
+				33B2457CCA424E66AE86E222 /* PBXTargetDependency */,
+				6D08DE5D42DE45939CC98594 /* PBXTargetDependency */,
+				B5533495533F43A687F005F1 /* PBXTargetDependency */,
+				7FE0EC75EDBC465D8A285DFE /* PBXTargetDependency */,
+				8D5D65C4B2B642B59EB34535 /* PBXTargetDependency */,
+				A4CF4D8E87AF47A4B661C122 /* PBXTargetDependency */,
+				E46E87F5B7FE4C1AB98DF910 /* PBXTargetDependency */,
+				BD5C8284A7CA477A96A1AFAE /* PBXTargetDependency */,
+				3B624CCB5968455490ECB94B /* PBXTargetDependency */,
+				8C93ADA2DA8146248C463A97 /* PBXTargetDependency */,
+				E066134C8492473FA1A1970F /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0507FD408A904499AB851BC0 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0548A574E08B4573BDF99CD7 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/CMakeLists.txt */; };
+		06C752F13CB94894A0A7FF0B /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 887F6BC8438F47B99CFC51C1 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */; };
+		0A3F37BD96BE4D41A1A7EBE5 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 90B72664EB344FCABCD36D96 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */; };
+		0B850E3D986A4D78B78BC215 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXBuildFile; fileRef = D7B110C93D384F29864A820A /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */; };
+		0D69364A1F26473D851A4A81 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 92EFD615166B4DB19A9BF783 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/edtaa3func/CMakeLists.txt */; };
+		11883224721444E983CCE8C6 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXBuildFile; fileRef = 95812EDA855644B380B5D3F9 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/sweep/cdt.cc */; };
+		1DEC96D7A21E4C52B54CF2E4 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FCF807CE4E904BA19D8A391F /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/CMakeLists.txt */; };
+		2A66B062D75246D589C78CE8 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXBuildFile; fileRef = 80978594DC914048B0226CDD /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourNode.cpp */; };
+		2D314D669B544884BB3DB0BB /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXBuildFile; fileRef = 440846CED5CE4501AA4F4658 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/sweep/sweep.cc */; };
+		2E5AAFA889F04F02ABD47A3E /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 356510F79C7641D6BFD890A6 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */; };
+		30002039E9EB485BADC0D991 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3003B6581261492590102078 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/CMakeLists.txt */; };
+		344A4DD298F44262A24AF497 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 7F2BE98F04DC4484A9A7C03A /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */; };
+		36855552C01040CEA66FD1D7 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXBuildFile; fileRef = 411FB25105B347F49958622C /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxtea/xxtea.cpp */; };
+		45EBE3013A63466B84FA08E3 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXBuildFile; fileRef = 7792AE5E3D6E411CB6334CA2 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/xxhash.c */; };
+		493B3E5360F54DCCA5C5D565 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXBuildFile; fileRef = D5A50265A7FA4BB59F484EE8 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */; };
+		4EFDD8AC15C646A9A625C80A /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/md5/md5.c */ = {isa = PBXBuildFile; fileRef = 878DDE1D5C394B5EA7B0E271 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/md5/md5.c */; };
+		54651D60F4AA4472A06C2996 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXBuildFile; fileRef = EECA5386C927483DBADA2E86 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/fastlz/fastlz.c */; };
+		5CE46ED76F404BFA835A3085 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = D3BEBE7F7C284F379DB6A424 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */; };
+		5D320C5A22544DC5BE18E1A6 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXBuildFile; fileRef = 288E0DFFAE89401C869B0A3A /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */; };
+		65E9CB4F2EAD4619A1DEC308 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4ECBA31441214188A4517EC0 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/CMakeLists.txt */; };
+		6B1FC69460804D80B37C03B3 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 42EB12820C0A4D989C41AB4C /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/md5/CMakeLists.txt */; };
+		6C69EBFA0DD140B78429BE66 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = DF8B225A2B0747C6844E1936 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */; };
+		6DB1C127B40C47E6B52622AD /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXBuildFile; fileRef = AD0973AA2C954E8599F4CDA4 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */; };
+		701BCBE798FB43F39EACEEE0 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXBuildFile; fileRef = 9C4A958A0FA74CE8A3EC8FFA /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */; };
+		7064A64747D74357BB510112 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/CMakeFiles/external.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = D524833EBB694926B91A4188 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/CMakeFiles/external.dir/Info.plist */; };
+		73A52C08D8C5428AA989A28B /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 79680E8DE3604533B3FF2F14 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/CMakeLists.txt */; };
+		7546F5218B2348F8A5AE1391 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXBuildFile; fileRef = BD86406B361D4DB2896F8E25 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */; };
+		79A7C5156E274E94B5B62142 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 039D2C9FB99B4DF3AA17982F /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */; };
+		81050C0EFFF04D81BE5626DB /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 806A953CB7A14080BE1DCFC7 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */; };
+		8FA00BFEC85949159C4BACCC /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 8646300AFBA849BAB62450ED /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */; };
+		92EB056B9331417AAD0FD49C /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D0C43A59EEA1414CBE9AE9AD /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/clipper/CMakeLists.txt */; };
+		96E8F1E92CD0442B906869F8 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXBuildFile; fileRef = B073259BC80A4CF39931629F /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/clipper/clipper.cpp */; };
+		98DF4F53B25F4AF78E23CADD /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXBuildFile; fileRef = CCAF51AA2F554EB9A3633AD2 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/edtaa3func/edtaa3func.cpp */; };
+		98E6DFFDC7C548C1AF1A2EE0 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXBuildFile; fileRef = 6E36A8C4AACD4FAAAF426D3D /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/unzip.cpp */; };
+		9B17AE5E8BA942E1BF9DC0CD /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXBuildFile; fileRef = 8AE596A157B84540A05D65BB /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/ioapi_mem.cpp */; };
+		9E3A6BA6EB184AF692670176 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = F93A730FB71547A99FA557BC /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */; };
+		9ED3C1E0F2F14CDEB8DFD293 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = FD1D51F203A44429AE80C8A9 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */; };
+		A165A5F3C55F4802BB7E8D82 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXBuildFile; fileRef = 46B040E37DE34A279C3294D1 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */; };
+		AD4EC008752944468F827A28 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXBuildFile; fileRef = EE3964666E5E4423B63EA0C6 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */; };
+		AEB4600FB2554B0A99FC8440 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXBuildFile; fileRef = DA77C5BDEDDA4B009B670610 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/sweep/sweep_context.cc */; };
+		B84BAA5C6DD44182BBB21CC0 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5C1053C42D5747D7ACD82F50 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/CMakeLists.txt */; };
+		BE5921483BA049D9A3838145 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXBuildFile; fileRef = B740B45678424CD69274FA1D /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/ioapi.cpp */; };
+		C063B29744C44517B6114A81 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/empty.cpp */ = {isa = PBXBuildFile; fileRef = 3C1B60ECD56241259A83F3FB /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/empty.cpp */; };
+		C48E96746D5B4CB79C4D4166 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXBuildFile; fileRef = D447965DBE974895AA7F7D7A /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourAlloc.cpp */; };
+		CA750AF09A6940588CF327B5 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6AC21570DFC744DC9DD9F210 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxtea/CMakeLists.txt */; };
+		CC159A7D3A224D9FACCBC80E /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C1E57D01696F4FC88EB60C97 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/CMakeLists.txt */; };
+		CCD321B564974AA6A80A0A6A /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 0F4E6246C8B645BEA7B57B9D /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */; };
+		CFE3368D51C34EC0842BADC6 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXBuildFile; fileRef = D59D4C977E0347729AD3A426 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/ConvertUTF.c */; };
+		DBF91CC75274436D9E0B6EAF /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXBuildFile; fileRef = 46E46EF6D8F6404A9A7DD689 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/sweep/advancing_front.cc */; };
+		DCF7EEC3798F41069A11D705 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXBuildFile; fileRef = 93EE8C2C782040F6B98BC862 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/common/shapes.cc */; };
+		E42A782EB3044D79B9975612 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = C2D22718B593452685BE651D /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */; };
+		E7C64E5801BA44B8B905D4B9 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = 0B809D65DEC94B14AB3AAC17 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/tinyxml2.cpp */; };
+		EA5F0110DBF442D1B195EA8D /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXBuildFile; fileRef = 00AF243423E946119BB3B90C /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourCommon.cpp */; };
+		FABFB47C98B44319B512D230 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXBuildFile; fileRef = CD62066A6434418F8C3B9605 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */; };
+		FDE1EC0804DB44748903B442 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXBuildFile; fileRef = 79712F9AF82B4B31A64D1AC1 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourNavMesh.cpp */; };
+		FE41F6630C8D424DBD25CD42 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 921B52E3B53045BD89F57A3F /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0CAE8275AA0C4DBCAE08E1B4 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		153AB98275334DFD8E8209E3 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		22DBF3EE266048FD8057D4FA /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		99983C0E70B245C3BF3DD82E /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		122784CF547440DC89B68052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29BEA457D93E4FAE9784A38F;
+			remoteInfo = ext_edtaa3func;
+		};
+		13962043B833417EA45F6685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B32AA9B01E04894A8BBB5F0;
+			remoteInfo = ZERO_CHECK;
+		};
+		1CAACCBC6F1941ABA68A0EED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AEFA782D8284A2F8125C075;
+			remoteInfo = ext_clipper;
+		};
+		35293F8B4B224AEF91208927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 308895018E5D4C6DBB5A5204;
+			remoteInfo = ext_xxtea;
+		};
+		372C8D5FB0FA4467BA51A004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B32AA9B01E04894A8BBB5F0;
+			remoteInfo = ZERO_CHECK;
+		};
+		3E5AB67E072E45BC940BD52C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40219C60140A4D87B56F2095;
+			remoteInfo = ext_xxhash;
+		};
+		5B054DB5F95D4311AB6D986A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8650630BFE48A7994FEB75;
+			remoteInfo = ext_poly2tri;
+		};
+		66AA23594D284E46BB82731F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42FD32ED742A47B8B35072C7;
+			remoteInfo = ext_convertUTF;
+		};
+		67040AEDD0D3458FA2B67D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8650630BFE48A7994FEB75;
+			remoteInfo = ext_poly2tri;
+		};
+		895F612ABCB940B5813DB563 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6D02CC3D7B42079ACDF7FD;
+			remoteInfo = ext_recast;
+		};
+		99ABC783100C4344BDD8F83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91CEF66176A8419BBC87C505;
+			remoteInfo = ext_unzip;
+		};
+		9E6235DF7CC749949CA00931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89DF3034B8064925BEFAFB3B;
+			remoteInfo = ext_md5;
+		};
+		A4072DF865944C189F34DC49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42FD32ED742A47B8B35072C7;
+			remoteInfo = ext_convertUTF;
+		};
+		A8BF3982ACCB48668C2A6A53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCA7AA00B1F043A28F8A7693;
+			remoteInfo = external;
+		};
+		AFB67B85138241D0A66C4378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29BEA457D93E4FAE9784A38F;
+			remoteInfo = ext_edtaa3func;
+		};
+		C14BF6F44EEA4A5D9768FD55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 308895018E5D4C6DBB5A5204;
+			remoteInfo = ext_xxtea;
+		};
+		CDEB6C6A251142A3A954179D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40219C60140A4D87B56F2095;
+			remoteInfo = ext_xxhash;
+		};
+		CFFD039F1BAB43638DE486FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89DF3034B8064925BEFAFB3B;
+			remoteInfo = ext_md5;
+		};
+		D8B110744B584BCE8461D9B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D081FC03C4F4811820BCE90;
+			remoteInfo = ext_tinyxml2;
+		};
+		E47D3E19680D4A84AB7E052E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91CEF66176A8419BBC87C505;
+			remoteInfo = ext_unzip;
+		};
+		E90E6DEDAA63425EB6585359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6D02CC3D7B42079ACDF7FD;
+			remoteInfo = ext_recast;
+		};
+		FB8ED4344DC040CA98067CBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D081FC03C4F4811820BCE90;
+			remoteInfo = ext_tinyxml2;
+		};
+		FD5DBF5D41B24F6199C52824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95D3995DFB0047E9BC8684EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AEFA782D8284A2F8125C075;
+			remoteInfo = ext_clipper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00AF243423E946119BB3B90C /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCommon.cpp; path = recast/Detour/DetourCommon.cpp; sourceTree = SOURCE_ROOT; };
+		039D2C9FB99B4DF3AA17982F /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../proj.ios_mac/ios/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		0548A574E08B4573BDF99CD7 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = poly2tri/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0B809D65DEC94B14AB3AAC17 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = tinyxml2/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		0E4578F206F04417BC861EEF /* ext_clipper */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_clipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F4E6246C8B645BEA7B57B9D /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../proj.ios_mac/ios/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		20E2B54B9CE047F992D39090 /* ext_unzip */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_unzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		288E0DFFAE89401C869B0A3A /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourObstacleAvoidance.cpp; path = recast/DetourCrowd/DetourObstacleAvoidance.cpp; sourceTree = SOURCE_ROOT; };
+		3003B6581261492590102078 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tinyxml2/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		356510F79C7641D6BFD890A6 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../proj.ios_mac/ios/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		3C1B60ECD56241259A83F3FB /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/empty.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = empty.cpp; path = empty.cpp; sourceTree = SOURCE_ROOT; };
+		411FB25105B347F49958622C /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xxtea.cpp; path = xxtea/xxtea.cpp; sourceTree = SOURCE_ROOT; };
+		42EB12820C0A4D989C41AB4C /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = md5/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		440846CED5CE4501AA4F4658 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep.cc; path = poly2tri/sweep/sweep.cc; sourceTree = SOURCE_ROOT; };
+		46B040E37DE34A279C3294D1 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshQuery.cpp; path = recast/Detour/DetourNavMeshQuery.cpp; sourceTree = SOURCE_ROOT; };
+		46E46EF6D8F6404A9A7DD689 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = advancing_front.cc; path = poly2tri/sweep/advancing_front.cc; sourceTree = SOURCE_ROOT; };
+		49BAB09CDEFC443DA8A4A1FB /* ext_xxhash */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxhash.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECBA31441214188A4517EC0 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxhash/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		50C400CDA4BF45D7A5595070 /* ext_md5 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_md5.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1053C42D5747D7ACD82F50 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = recast/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		622AD781756A44E5A213B03F /* ext_edtaa3func */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_edtaa3func.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F04BE11C894D2B8FD4FA2E /* external */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libexternal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC21570DFC744DC9DD9F210 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxtea/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6E36A8C4AACD4FAAAF426D3D /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unzip.cpp; path = unzip/unzip.cpp; sourceTree = SOURCE_ROOT; };
+		72FA0740F0934DFE9FA2CB65 /* ext_xxtea */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxtea.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7792AE5E3D6E411CB6334CA2 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xxhash.c; path = xxhash/xxhash.c; sourceTree = SOURCE_ROOT; };
+		79680E8DE3604533B3FF2F14 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ConvertUTF/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		79712F9AF82B4B31A64D1AC1 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMesh.cpp; path = recast/Detour/DetourNavMesh.cpp; sourceTree = SOURCE_ROOT; };
+		7F2BE98F04DC4484A9A7C03A /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../proj.ios_mac/ios/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		806A953CB7A14080BE1DCFC7 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourDebugDraw.cpp; path = recast/DebugUtils/DetourDebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		80978594DC914048B0226CDD /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNode.cpp; path = recast/Detour/DetourNode.cpp; sourceTree = SOURCE_ROOT; };
+		8646300AFBA849BAB62450ED /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DebugDraw.cpp; path = recast/DebugUtils/DebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		878DDE1D5C394B5EA7B0E271 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/md5/md5.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = md5.c; path = md5/md5.c; sourceTree = SOURCE_ROOT; };
+		887F6BC8438F47B99CFC51C1 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshBuilder.cpp; path = recast/Detour/DetourNavMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		8AE596A157B84540A05D65BB /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi_mem.cpp; path = unzip/ioapi_mem.cpp; sourceTree = SOURCE_ROOT; };
+		8B74B0B7607F447FB5180FA7 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		90B72664EB344FCABCD36D96 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCacheBuilder.cpp; path = recast/DetourTileCache/DetourTileCacheBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		921B52E3B53045BD89F57A3F /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../proj.ios_mac/ios/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		92EFD615166B4DB19A9BF783 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = edtaa3func/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		93EE8C2C782040F6B98BC862 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shapes.cc; path = poly2tri/common/shapes.cc; sourceTree = SOURCE_ROOT; };
+		95812EDA855644B380B5D3F9 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cdt.cc; path = poly2tri/sweep/cdt.cc; sourceTree = SOURCE_ROOT; };
+		996C28224A9C427C892971CC /* ext_poly2tri */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_poly2tri.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		996C69A299374EC987BD1518 /* ext_convertUTF */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_convertUTF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4A958A0FA74CE8A3EC8FFA /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCache.cpp; path = recast/DetourTileCache/DetourTileCache.cpp; sourceTree = SOURCE_ROOT; };
+		AD0973AA2C954E8599F4CDA4 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConvertUTFWrapper.cpp; path = ConvertUTF/ConvertUTFWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		B073259BC80A4CF39931629F /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clipper.cpp; path = clipper/clipper.cpp; sourceTree = SOURCE_ROOT; };
+		B740B45678424CD69274FA1D /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi.cpp; path = unzip/ioapi.cpp; sourceTree = SOURCE_ROOT; };
+		BD86406B361D4DB2896F8E25 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathQueue.cpp; path = recast/DetourCrowd/DetourPathQueue.cpp; sourceTree = SOURCE_ROOT; };
+		C1E57D01696F4FC88EB60C97 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C2D22718B593452685BE651D /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../proj.ios_mac/ios/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		CCAF51AA2F554EB9A3633AD2 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = edtaa3func.cpp; path = edtaa3func/edtaa3func.cpp; sourceTree = SOURCE_ROOT; };
+		CD62066A6434418F8C3B9605 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathCorridor.cpp; path = recast/DetourCrowd/DetourPathCorridor.cpp; sourceTree = SOURCE_ROOT; };
+		D0C43A59EEA1414CBE9AE9AD /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = clipper/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D3BEBE7F7C284F379DB6A424 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../proj.ios_mac/ios/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		D447965DBE974895AA7F7D7A /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourAlloc.cpp; path = recast/Detour/DetourAlloc.cpp; sourceTree = SOURCE_ROOT; };
+		D524833EBB694926B91A4188 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/CMakeFiles/external.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../proj.ios_mac/ios/engine/external/CMakeFiles/external.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		D59D4C977E0347729AD3A426 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ConvertUTF.c; path = ConvertUTF/ConvertUTF.c; sourceTree = SOURCE_ROOT; };
+		D5A50265A7FA4BB59F484EE8 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourLocalBoundary.cpp; path = recast/DetourCrowd/DetourLocalBoundary.cpp; sourceTree = SOURCE_ROOT; };
+		D7B110C93D384F29864A820A /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCrowd.cpp; path = recast/DetourCrowd/DetourCrowd.cpp; sourceTree = SOURCE_ROOT; };
+		DA77C5BDEDDA4B009B670610 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep_context.cc; path = poly2tri/sweep/sweep_context.cc; sourceTree = SOURCE_ROOT; };
+		DF8B225A2B0747C6844E1936 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../proj.ios_mac/ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		E4B1BD47070D4B11A697EF37 /* ext_recast */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_recast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75AB82BDD2848B7AA0AA93E /* ext_tinyxml2 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_tinyxml2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3964666E5E4423B63EA0C6 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourProximityGrid.cpp; path = recast/DetourCrowd/DetourProximityGrid.cpp; sourceTree = SOURCE_ROOT; };
+		EECA5386C927483DBADA2E86 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fastlz.c; path = recast/fastlz/fastlz.c; sourceTree = SOURCE_ROOT; };
+		F93A730FB71547A99FA557BC /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		FCF807CE4E904BA19D8A391F /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = unzip/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FD1D51F203A44429AE80C8A9 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../proj.ios_mac/ios/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		02701B7ABB61479A90E55231 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0F4E6246C8B645BEA7B57B9D /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0B4F0763DDDC403590F0F5B1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				039D2C9FB99B4DF3AA17982F /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0C61AF2C1F524E9A88F74F15 = {
+			isa = PBXGroup;
+			children = (
+				3DBE310B96B04582AAA67FB9 /* External */,
+				FBA8E55399914637952AE8B0 /* ALL_BUILD */,
+				A917F2AECDB841DD8C05536D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AFEEE94C9DF4A37A04E0107 /* ext_unzip */ = {
+			isa = PBXGroup;
+			children = (
+				D5FB8048CD334A30A2077B74 /* Source Files */,
+				02701B7ABB61479A90E55231 /* Resources */,
+				FCF807CE4E904BA19D8A391F /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/CMakeLists.txt */,
+			);
+			name = ext_unzip;
+			sourceTree = "<group>";
+		};
+		324A72293D434FDABA47D420 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF8B225A2B0747C6844E1936 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		348538540324499F81073898 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B073259BC80A4CF39931629F /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/clipper/clipper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3DBE310B96B04582AAA67FB9 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				EC0D5B4CA16E48C08FE2AB61 /* external */,
+				BC01A7EDF5834CEB8B26E49A /* ext_recast */,
+				55D33B19992D475BADDA1E10 /* ext_tinyxml2 */,
+				7355362F8B7548129B27C367 /* ext_xxhash */,
+				769B95E0EA6243BEA67B3464 /* ext_xxtea */,
+				53668F4F937847B99AB63370 /* ext_clipper */,
+				74346B100D114FB79E6D2862 /* ext_edtaa3func */,
+				9905A1368E4640109DCDE840 /* ext_convertUTF */,
+				8C420EB6E34A48599357CA7E /* ext_poly2tri */,
+				D436321C23B046B48EC8B555 /* ext_md5 */,
+				2AFEEE94C9DF4A37A04E0107 /* ext_unzip */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		430A1CAA17384E30BABCD35E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F93A730FB71547A99FA557BC /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5045D72BFEF44DEBA3A94933 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				921B52E3B53045BD89F57A3F /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5110076A4E4343AFA1B49B3A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D59D4C977E0347729AD3A426 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				AD0973AA2C954E8599F4CDA4 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		53668F4F937847B99AB63370 /* ext_clipper */ = {
+			isa = PBXGroup;
+			children = (
+				348538540324499F81073898 /* Source Files */,
+				573E92BD389C442492706DF3 /* Resources */,
+				D0C43A59EEA1414CBE9AE9AD /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/clipper/CMakeLists.txt */,
+			);
+			name = ext_clipper;
+			sourceTree = "<group>";
+		};
+		55D33B19992D475BADDA1E10 /* ext_tinyxml2 */ = {
+			isa = PBXGroup;
+			children = (
+				975C21135C9842FE9D28E693 /* Source Files */,
+				7BCE89E1491E41B8A3659574 /* Resources */,
+				3003B6581261492590102078 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/CMakeLists.txt */,
+			);
+			name = ext_tinyxml2;
+			sourceTree = "<group>";
+		};
+		573E92BD389C442492706DF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2D22718B593452685BE651D /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		58EBE51D38A24119949EC420 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C1B60ECD56241259A83F3FB /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/empty.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		70C4D47041D0426BB7347956 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				878DDE1D5C394B5EA7B0E271 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/md5/md5.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7355362F8B7548129B27C367 /* ext_xxhash */ = {
+			isa = PBXGroup;
+			children = (
+				793961D545D54A5399D76A2F /* Source Files */,
+				AEE99D4892654DC4B37F91E7 /* Resources */,
+				4ECBA31441214188A4517EC0 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/CMakeLists.txt */,
+			);
+			name = ext_xxhash;
+			sourceTree = "<group>";
+		};
+		74346B100D114FB79E6D2862 /* ext_edtaa3func */ = {
+			isa = PBXGroup;
+			children = (
+				9E210CD4AA664498920B7441 /* Source Files */,
+				0B4F0763DDDC403590F0F5B1 /* Resources */,
+				92EFD615166B4DB19A9BF783 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/edtaa3func/CMakeLists.txt */,
+			);
+			name = ext_edtaa3func;
+			sourceTree = "<group>";
+		};
+		769B95E0EA6243BEA67B3464 /* ext_xxtea */ = {
+			isa = PBXGroup;
+			children = (
+				BB8C83D684D146048C3B0F71 /* Source Files */,
+				5045D72BFEF44DEBA3A94933 /* Resources */,
+				6AC21570DFC744DC9DD9F210 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxtea/CMakeLists.txt */,
+			);
+			name = ext_xxtea;
+			sourceTree = "<group>";
+		};
+		793961D545D54A5399D76A2F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7792AE5E3D6E411CB6334CA2 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/xxhash.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7B4F4AD109AB424697582D2D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD1D51F203A44429AE80C8A9 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7BCE89E1491E41B8A3659574 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D3BEBE7F7C284F379DB6A424 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8C420EB6E34A48599357CA7E /* ext_poly2tri */ = {
+			isa = PBXGroup;
+			children = (
+				BB447BE13F5A4355ACDD83B2 /* Source Files */,
+				9F4B621927D54C7EA6BB1D6E /* Resources */,
+				0548A574E08B4573BDF99CD7 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/CMakeLists.txt */,
+			);
+			name = ext_poly2tri;
+			sourceTree = "<group>";
+		};
+		975C21135C9842FE9D28E693 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B809D65DEC94B14AB3AAC17 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9905A1368E4640109DCDE840 /* ext_convertUTF */ = {
+			isa = PBXGroup;
+			children = (
+				5110076A4E4343AFA1B49B3A /* Source Files */,
+				430A1CAA17384E30BABCD35E /* Resources */,
+				79680E8DE3604533B3FF2F14 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ext_convertUTF;
+			sourceTree = "<group>";
+		};
+		9E210CD4AA664498920B7441 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCAF51AA2F554EB9A3633AD2 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9F4B621927D54C7EA6BB1D6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7F2BE98F04DC4484A9A7C03A /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A917F2AECDB841DD8C05536D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E4578F206F04417BC861EEF /* ext_clipper */,
+				996C69A299374EC987BD1518 /* ext_convertUTF */,
+				622AD781756A44E5A213B03F /* ext_edtaa3func */,
+				50C400CDA4BF45D7A5595070 /* ext_md5 */,
+				996C28224A9C427C892971CC /* ext_poly2tri */,
+				E4B1BD47070D4B11A697EF37 /* ext_recast */,
+				E75AB82BDD2848B7AA0AA93E /* ext_tinyxml2 */,
+				20E2B54B9CE047F992D39090 /* ext_unzip */,
+				49BAB09CDEFC443DA8A4A1FB /* ext_xxhash */,
+				72FA0740F0934DFE9FA2CB65 /* ext_xxtea */,
+				64F04BE11C894D2B8FD4FA2E /* external */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEE99D4892654DC4B37F91E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				356510F79C7641D6BFD890A6 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BB447BE13F5A4355ACDD83B2 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				93EE8C2C782040F6B98BC862 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/common/shapes.cc */,
+				46E46EF6D8F6404A9A7DD689 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				95812EDA855644B380B5D3F9 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				440846CED5CE4501AA4F4658 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				DA77C5BDEDDA4B009B670610 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BB8C83D684D146048C3B0F71 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				411FB25105B347F49958622C /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BC01A7EDF5834CEB8B26E49A /* ext_recast */ = {
+			isa = PBXGroup;
+			children = (
+				FBE4B463F1144C7CA10AAA84 /* Source Files */,
+				324A72293D434FDABA47D420 /* Resources */,
+				5C1053C42D5747D7ACD82F50 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/CMakeLists.txt */,
+			);
+			name = ext_recast;
+			sourceTree = "<group>";
+		};
+		D436321C23B046B48EC8B555 /* ext_md5 */ = {
+			isa = PBXGroup;
+			children = (
+				70C4D47041D0426BB7347956 /* Source Files */,
+				7B4F4AD109AB424697582D2D /* Resources */,
+				42EB12820C0A4D989C41AB4C /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/md5/CMakeLists.txt */,
+			);
+			name = ext_md5;
+			sourceTree = "<group>";
+		};
+		D5FB8048CD334A30A2077B74 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B740B45678424CD69274FA1D /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/ioapi.cpp */,
+				8AE596A157B84540A05D65BB /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/ioapi_mem.cpp */,
+				6E36A8C4AACD4FAAAF426D3D /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/unzip.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E5223CB345544F5C95177045 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		EC0D5B4CA16E48C08FE2AB61 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				58EBE51D38A24119949EC420 /* Source Files */,
+				EE86B41104744DC899606891 /* Resources */,
+				C1E57D01696F4FC88EB60C97 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/CMakeLists.txt */,
+			);
+			name = external;
+			sourceTree = "<group>";
+		};
+		EE86B41104744DC899606891 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D524833EBB694926B91A4188 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/CMakeFiles/external.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FBA8E55399914637952AE8B0 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				E5223CB345544F5C95177045 /* CMake Rules */,
+				8B74B0B7607F447FB5180FA7 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		FBE4B463F1144C7CA10AAA84 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8646300AFBA849BAB62450ED /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				806A953CB7A14080BE1DCFC7 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				D447965DBE974895AA7F7D7A /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				00AF243423E946119BB3B90C /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				79712F9AF82B4B31A64D1AC1 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				887F6BC8438F47B99CFC51C1 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				46B040E37DE34A279C3294D1 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				80978594DC914048B0226CDD /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				D7B110C93D384F29864A820A /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				D5A50265A7FA4BB59F484EE8 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				288E0DFFAE89401C869B0A3A /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				CD62066A6434418F8C3B9605 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				BD86406B361D4DB2896F8E25 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				EE3964666E5E4423B63EA0C6 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				9C4A958A0FA74CE8A3EC8FFA /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				90B72664EB344FCABCD36D96 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				EECA5386C927483DBADA2E86 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29BEA457D93E4FAE9784A38F /* ext_edtaa3func */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FBC13906D8C47F7B8EC683D /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */;
+			buildPhases = (
+				7F2C5BF226D744E18854893C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_edtaa3func;
+			productName = ext_edtaa3func;
+			productReference = 622AD781756A44E5A213B03F /* ext_edtaa3func */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2AEFA782D8284A2F8125C075 /* ext_clipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0A29607AFF4542A656E192 /* Build configuration list for PBXNativeTarget "ext_clipper" */;
+			buildPhases = (
+				087C4831EBFE41279E58D06A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_clipper;
+			productName = ext_clipper;
+			productReference = 0E4578F206F04417BC861EEF /* ext_clipper */;
+			productType = "com.apple.product-type.library.static";
+		};
+		308895018E5D4C6DBB5A5204 /* ext_xxtea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA6EEB39317497AAC557F26 /* Build configuration list for PBXNativeTarget "ext_xxtea" */;
+			buildPhases = (
+				A5E05781844249CF86EF562F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxtea;
+			productName = ext_xxtea;
+			productReference = 72FA0740F0934DFE9FA2CB65 /* ext_xxtea */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3F6D02CC3D7B42079ACDF7FD /* ext_recast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6725DBD8FBB44458AD33AD8 /* Build configuration list for PBXNativeTarget "ext_recast" */;
+			buildPhases = (
+				0AD8E2AA685E461F85CDD34D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_recast;
+			productName = ext_recast;
+			productReference = E4B1BD47070D4B11A697EF37 /* ext_recast */;
+			productType = "com.apple.product-type.library.static";
+		};
+		40219C60140A4D87B56F2095 /* ext_xxhash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB5EF82A7A0479EB3DCC5E0 /* Build configuration list for PBXNativeTarget "ext_xxhash" */;
+			buildPhases = (
+				4BBF6F4268084EA4BA9D6D9A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxhash;
+			productName = ext_xxhash;
+			productReference = 49BAB09CDEFC443DA8A4A1FB /* ext_xxhash */;
+			productType = "com.apple.product-type.library.static";
+		};
+		42FD32ED742A47B8B35072C7 /* ext_convertUTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428705DDC67B4065A9E2982E /* Build configuration list for PBXNativeTarget "ext_convertUTF" */;
+			buildPhases = (
+				652ED89F41CB4E14B4274147 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_convertUTF;
+			productName = ext_convertUTF;
+			productReference = 996C69A299374EC987BD1518 /* ext_convertUTF */;
+			productType = "com.apple.product-type.library.static";
+		};
+		89DF3034B8064925BEFAFB3B /* ext_md5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520F3788DFAD41C2B91CB4F5 /* Build configuration list for PBXNativeTarget "ext_md5" */;
+			buildPhases = (
+				9D69492DD9DA4FEBB8803106 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_md5;
+			productName = ext_md5;
+			productReference = 50C400CDA4BF45D7A5595070 /* ext_md5 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8D081FC03C4F4811820BCE90 /* ext_tinyxml2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 249A9085B5D744C08B1ECE1C /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */;
+			buildPhases = (
+				9E537B7E1538449FA4E01828 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_tinyxml2;
+			productName = ext_tinyxml2;
+			productReference = E75AB82BDD2848B7AA0AA93E /* ext_tinyxml2 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		91CEF66176A8419BBC87C505 /* ext_unzip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108A48F4BFDC4E958905AB2B /* Build configuration list for PBXNativeTarget "ext_unzip" */;
+			buildPhases = (
+				5BA3382DE3D24613A9161463 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_unzip;
+			productName = ext_unzip;
+			productReference = 20E2B54B9CE047F992D39090 /* ext_unzip */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ED8650630BFE48A7994FEB75 /* ext_poly2tri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97D811C093314366B4170B88 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */;
+			buildPhases = (
+				B9E616D67F634FB8B710CD38 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_poly2tri;
+			productName = ext_poly2tri;
+			productReference = 996C28224A9C427C892971CC /* ext_poly2tri */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FCA7AA00B1F043A28F8A7693 /* external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A8648ABCD244FFA302D03A /* Build configuration list for PBXNativeTarget "external" */;
+			buildPhases = (
+				C037C8FE526A450C89763496 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27EDC7283EEB4170925070CC /* PBXTargetDependency */,
+				02CB1EC3D3EA4810B4F989A6 /* PBXTargetDependency */,
+				E386EE2F567C44D3A001DECC /* PBXTargetDependency */,
+				2216F15A867F443AB916395B /* PBXTargetDependency */,
+				8AED3DB521334B0596731062 /* PBXTargetDependency */,
+				05C6E61B9F284B4AAC846D0C /* PBXTargetDependency */,
+				E2F8988D75A84136ABA16B09 /* PBXTargetDependency */,
+				821E6AA5FC1847D082719D3E /* PBXTargetDependency */,
+				183182EA20814D4E963A45FC /* PBXTargetDependency */,
+				3E5B364F593240C798B43C66 /* PBXTargetDependency */,
+				94560DDA56BC43F49C407740 /* PBXTargetDependency */,
+			);
+			name = external;
+			productName = external;
+			productReference = 64F04BE11C894D2B8FD4FA2E /* external */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95D3995DFB0047E9BC8684EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1150;
+			};
+			buildConfigurationList = B92EBD313F674573902BDD2A /* Build configuration list for PBXProject "external" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				22DBF3EE266048FD8057D4FA /* Debug */,
+				0CAE8275AA0C4DBCAE08E1B4 /* Release */,
+				153AB98275334DFD8E8209E3 /* MinSizeRel */,
+				99983C0E70B245C3BF3DD82E /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 0C61AF2C1F524E9A88F74F15;
+			projectDirPath = ../../../../cocos2d/external;
+			projectRoot = "";
+			targets = (
+				F5EBF892A56949FC968B799A /* ALL_BUILD */,
+				7B32AA9B01E04894A8BBB5F0 /* ZERO_CHECK */,
+				2AEFA782D8284A2F8125C075 /* ext_clipper */,
+				42FD32ED742A47B8B35072C7 /* ext_convertUTF */,
+				29BEA457D93E4FAE9784A38F /* ext_edtaa3func */,
+				89DF3034B8064925BEFAFB3B /* ext_md5 */,
+				ED8650630BFE48A7994FEB75 /* ext_poly2tri */,
+				3F6D02CC3D7B42079ACDF7FD /* ext_recast */,
+				8D081FC03C4F4811820BCE90 /* ext_tinyxml2 */,
+				91CEF66176A8419BBC87C505 /* ext_unzip */,
+				40219C60140A4D87B56F2095 /* ext_xxhash */,
+				308895018E5D4C6DBB5A5204 /* ext_xxtea */,
+				FCA7AA00B1F043A28F8A7693 /* external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E607140AFC744498C914E16 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external -f /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		703A2AD086564838AD4B84A8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		819566EF00AB4FD194F6FD29 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external -f /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		AC867EEE7CF146B3AF17FCA6 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		087C4831EBFE41279E58D06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E8F1E92CD0442B906869F8 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/clipper/clipper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD8E2AA685E461F85CDD34D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA00BFEC85949159C4BACCC /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				81050C0EFFF04D81BE5626DB /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				C48E96746D5B4CB79C4D4166 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				EA5F0110DBF442D1B195EA8D /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				FDE1EC0804DB44748903B442 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				06C752F13CB94894A0A7FF0B /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				A165A5F3C55F4802BB7E8D82 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				2A66B062D75246D589C78CE8 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				0B850E3D986A4D78B78BC215 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				493B3E5360F54DCCA5C5D565 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				5D320C5A22544DC5BE18E1A6 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				FABFB47C98B44319B512D230 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				7546F5218B2348F8A5AE1391 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				AD4EC008752944468F827A28 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				701BCBE798FB43F39EACEEE0 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				0A3F37BD96BE4D41A1A7EBE5 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				54651D60F4AA4472A06C2996 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BBF6F4268084EA4BA9D6D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EBE3013A63466B84FA08E3 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/xxhash.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA3382DE3D24613A9161463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5921483BA049D9A3838145 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/ioapi.cpp */,
+				9B17AE5E8BA942E1BF9DC0CD /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/ioapi_mem.cpp */,
+				98E6DFFDC7C548C1AF1A2EE0 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/unzip.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		652ED89F41CB4E14B4274147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE3368D51C34EC0842BADC6 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				6DB1C127B40C47E6B52622AD /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2C5BF226D744E18854893C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DF4F53B25F4AF78E23CADD /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D69492DD9DA4FEBB8803106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EFDD8AC15C646A9A625C80A /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/md5/md5.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E537B7E1538449FA4E01828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C64E5801BA44B8B905D4B9 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E05781844249CF86EF562F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36855552C01040CEA66FD1D7 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E616D67F634FB8B710CD38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF7EEC3798F41069A11D705 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/common/shapes.cc */,
+				DBF91CC75274436D9E0B6EAF /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				11883224721444E983CCE8C6 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				2D314D669B544884BB3DB0BB /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				AEB4600FB2554B0A99FC8440 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C037C8FE526A450C89763496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C063B29744C44517B6114A81 /* /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/empty.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02CB1EC3D3EA4810B4F989A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D081FC03C4F4811820BCE90 /* ext_tinyxml2 */;
+			targetProxy = D8B110744B584BCE8461D9B0 /* PBXContainerItemProxy */;
+		};
+		05C6E61B9F284B4AAC846D0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29BEA457D93E4FAE9784A38F /* ext_edtaa3func */;
+			targetProxy = AFB67B85138241D0A66C4378 /* PBXContainerItemProxy */;
+		};
+		0836D689E2BF4A45833EF195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCA7AA00B1F043A28F8A7693 /* external */;
+			targetProxy = A8BF3982ACCB48668C2A6A53 /* PBXContainerItemProxy */;
+		};
+		183182EA20814D4E963A45FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89DF3034B8064925BEFAFB3B /* ext_md5 */;
+			targetProxy = 9E6235DF7CC749949CA00931 /* PBXContainerItemProxy */;
+		};
+		2216F15A867F443AB916395B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 308895018E5D4C6DBB5A5204 /* ext_xxtea */;
+			targetProxy = 35293F8B4B224AEF91208927 /* PBXContainerItemProxy */;
+		};
+		27EDC7283EEB4170925070CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6D02CC3D7B42079ACDF7FD /* ext_recast */;
+			targetProxy = E90E6DEDAA63425EB6585359 /* PBXContainerItemProxy */;
+		};
+		33B2457CCA424E66AE86E222 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6D02CC3D7B42079ACDF7FD /* ext_recast */;
+			targetProxy = 895F612ABCB940B5813DB563 /* PBXContainerItemProxy */;
+		};
+		3B624CCB5968455490ECB94B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89DF3034B8064925BEFAFB3B /* ext_md5 */;
+			targetProxy = CFFD039F1BAB43638DE486FA /* PBXContainerItemProxy */;
+		};
+		3E5B364F593240C798B43C66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91CEF66176A8419BBC87C505 /* ext_unzip */;
+			targetProxy = E47D3E19680D4A84AB7E052E /* PBXContainerItemProxy */;
+		};
+		6D08DE5D42DE45939CC98594 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D081FC03C4F4811820BCE90 /* ext_tinyxml2 */;
+			targetProxy = FB8ED4344DC040CA98067CBC /* PBXContainerItemProxy */;
+		};
+		7FE0EC75EDBC465D8A285DFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 308895018E5D4C6DBB5A5204 /* ext_xxtea */;
+			targetProxy = C14BF6F44EEA4A5D9768FD55 /* PBXContainerItemProxy */;
+		};
+		821E6AA5FC1847D082719D3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED8650630BFE48A7994FEB75 /* ext_poly2tri */;
+			targetProxy = 5B054DB5F95D4311AB6D986A /* PBXContainerItemProxy */;
+		};
+		8AED3DB521334B0596731062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AEFA782D8284A2F8125C075 /* ext_clipper */;
+			targetProxy = 1CAACCBC6F1941ABA68A0EED /* PBXContainerItemProxy */;
+		};
+		8C93ADA2DA8146248C463A97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91CEF66176A8419BBC87C505 /* ext_unzip */;
+			targetProxy = 99ABC783100C4344BDD8F83B /* PBXContainerItemProxy */;
+		};
+		8D5D65C4B2B642B59EB34535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AEFA782D8284A2F8125C075 /* ext_clipper */;
+			targetProxy = FD5DBF5D41B24F6199C52824 /* PBXContainerItemProxy */;
+		};
+		94560DDA56BC43F49C407740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B32AA9B01E04894A8BBB5F0 /* ZERO_CHECK */;
+			targetProxy = 372C8D5FB0FA4467BA51A004 /* PBXContainerItemProxy */;
+		};
+		A4CF4D8E87AF47A4B661C122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29BEA457D93E4FAE9784A38F /* ext_edtaa3func */;
+			targetProxy = 122784CF547440DC89B68052 /* PBXContainerItemProxy */;
+		};
+		B5533495533F43A687F005F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40219C60140A4D87B56F2095 /* ext_xxhash */;
+			targetProxy = CDEB6C6A251142A3A954179D /* PBXContainerItemProxy */;
+		};
+		BD5C8284A7CA477A96A1AFAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED8650630BFE48A7994FEB75 /* ext_poly2tri */;
+			targetProxy = 67040AEDD0D3458FA2B67D30 /* PBXContainerItemProxy */;
+		};
+		E066134C8492473FA1A1970F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B32AA9B01E04894A8BBB5F0 /* ZERO_CHECK */;
+			targetProxy = 13962043B833417EA45F6685 /* PBXContainerItemProxy */;
+		};
+		E2F8988D75A84136ABA16B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42FD32ED742A47B8B35072C7 /* ext_convertUTF */;
+			targetProxy = 66AA23594D284E46BB82731F /* PBXContainerItemProxy */;
+		};
+		E386EE2F567C44D3A001DECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40219C60140A4D87B56F2095 /* ext_xxhash */;
+			targetProxy = 3E5AB67E072E45BC940BD52C /* PBXContainerItemProxy */;
+		};
+		E46E87F5B7FE4C1AB98DF910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42FD32ED742A47B8B35072C7 /* ext_convertUTF */;
+			targetProxy = A4072DF865944C189F34DC49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0026219E4CC34186946DBDFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		01C94D71049E4282B07211F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/clipper/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/clipper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		07768CCC27D741DA85B65560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/recast;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		33EAC3A8D42C48FEA22053C1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/unzip;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3433ED112A2146A7AA14CACF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/..,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxtea/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/clipper/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/edtaa3func/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/..,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/md5/..,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/Box2D/include,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/chipmunk/include,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/freetype2/include/ios/freetype2,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/bullet/include,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/bullet/include/bullet,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/jpeg/include/ios,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/openssl/include/ios,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/uv/include,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/webp/include/ios,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/websockets/include/ios,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/curl/include/ios,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/png/include/ios,"/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/glsl-optimizer/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		39D1EF9C45944A0699538CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/edtaa3func/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/edtaa3func;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3A8E16F27F444EFD943C3720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3E4EFC05EE664923978D076F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		41EFEF25249C4B2D904B8040 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		43830FA1EA6F40358B827D1A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/poly2tri;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		445A0F3BD6B340D3ACD10996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/poly2tri;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4679393B91614FBC949BB140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		46F9B96168EC430F978B6017 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/edtaa3func/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/edtaa3func;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4778D04CD27B4682B0675D54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/..,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxtea/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/clipper/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/edtaa3func/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/..,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/md5/..,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/Box2D/include,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/chipmunk/include,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/freetype2/include/ios/freetype2,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/bullet/include,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/bullet/include/bullet,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/jpeg/include/ios,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/openssl/include/ios,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/uv/include,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/webp/include/ios,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/websockets/include/ios,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/curl/include/ios,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/png/include/ios,"/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/glsl-optimizer/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4ABC64846D2E42488FDDF3BF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/clipper/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/clipper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4ED296F7015E40C7A8CD4BA6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/recast;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5198CC8202AE4A6990234E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		591A32829D514813A6C1A19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7185508BAD56400F89CF3832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		71A4B07C6FB54D3FBC8F8A12 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		71B89FB7B1CA49118EB9C7EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		78A479D809394141AD62BF91 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7B667495DBF2470692A0B04D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7C81BF4E2BD84F92A976A453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/md5/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/md5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		846CE9D90A25467298B44618 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8543C66B876B4E92A0CE2C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/..,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxtea/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/clipper/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/edtaa3func/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/..,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/md5/..,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/Box2D/include,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/chipmunk/include,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/freetype2/include/ios/freetype2,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/bullet/include,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/bullet/include/bullet,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/jpeg/include/ios,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/openssl/include/ios,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/uv/include,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/webp/include/ios,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/websockets/include/ios,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/curl/include/ios,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/png/include/ios,"/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/glsl-optimizer/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9955CF67A1B643E792290FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxtea/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxtea;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9B196601A9124C9C97308AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A0870EB48D3643A4B89F7D70 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/recast;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A4EA4B5B2A0D4A53B66F3223 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A74D90DBAD514CE3B2427B12 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/md5/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/md5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AE60DFCBE02749A4BBA8B9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/build;
+			};
+			name = Debug;
+		};
+		AF3B0F45CE9E48D594248B33 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxtea/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxtea;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B1062AEA06A44262BA563435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/ConvertUTF;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B14A5BDAC4CA48598D862AF3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/clipper/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/clipper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BBAA0BD21F5E41F2B876823E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/unzip;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BBDCAF3C1C8443CE99400834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/tinyxml2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C4512CE4CB9B405E9AC08CB1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/md5/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/md5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C5C3A494D5C6483FA558FC72 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C88A8454471149F3B65A1325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/build;
+			};
+			name = Release;
+		};
+		D0D380BD32324249A6840BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/clipper/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/clipper;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D0FFC5E433154CA0B9FAB539 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/poly2tri;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D1983E34221D4B35B8CB3AEA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/edtaa3func/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/edtaa3func;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E57818E933894841940EBEDD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E87A266904BB48B6AA64213D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/recast;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E8C6DAABE8794282A0DD1975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/md5/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/md5;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E99085EA8554420392826CB3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/build;
+			};
+			name = RelWithDebInfo;
+		};
+		EAF960642F3E4AE8AA841BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/edtaa3func/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/edtaa3func;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EB459E69C3084CEDA9A2B852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/poly2tri;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F244A324AB4E4FA6B238888B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxhash;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F474AD673C3C4F21B9C60259 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/unzip;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F56A66C8179C4730A4E8BBA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Release;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/unzip;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FAA546A3572A4449BA8BCF9F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/RelWithDebInfo;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxtea/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxtea;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FD32BEDEEA5D4B25A2E99757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/Debug;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxtea/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/xxtea;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FF383A884ECA435DA4970E82 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external/build;
+			};
+			name = MinSizeRel;
+		};
+		FFF2457510E444C2A6303E35 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/lib/MinSizeRel;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/recast/..,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/tinyxml2/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxhash/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/xxtea/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/clipper/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/edtaa3func/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/ConvertUTF/.,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/poly2tri/..,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/md5/..,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/unzip/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/proj.ios_mac/ios/engine/external;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/Box2D/include,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/chipmunk/include,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/freetype2/include/ios/freetype2,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/bullet/include,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/bullet/include/bullet,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/jpeg/include/ios,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/openssl/include/ios,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/uv/include,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/webp/include/ios,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/websockets/include/ios,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/curl/include/ios,/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/png/include/ios,"/Users/yitonghu/LearnCoding/LearnCPP/LearnCocos2Dx/chickenrocket/cocos2d/external/glsl-optimizer/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		108A48F4BFDC4E958905AB2B /* Build configuration list for PBXNativeTarget "ext_unzip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBAA0BD21F5E41F2B876823E /* Debug */,
+				F56A66C8179C4730A4E8BBA0 /* Release */,
+				33EAC3A8D42C48FEA22053C1 /* MinSizeRel */,
+				F474AD673C3C4F21B9C60259 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		249A9085B5D744C08B1ECE1C /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDCAF3C1C8443CE99400834 /* Debug */,
+				5198CC8202AE4A6990234E78 /* Release */,
+				3E4EFC05EE664923978D076F /* MinSizeRel */,
+				71A4B07C6FB54D3FBC8F8A12 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		28A8648ABCD244FFA302D03A /* Build configuration list for PBXNativeTarget "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8543C66B876B4E92A0CE2C27 /* Debug */,
+				4778D04CD27B4682B0675D54 /* Release */,
+				FFF2457510E444C2A6303E35 /* MinSizeRel */,
+				3433ED112A2146A7AA14CACF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		428705DDC67B4065A9E2982E /* Build configuration list for PBXNativeTarget "ext_convertUTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B196601A9124C9C97308AA3 /* Debug */,
+				B1062AEA06A44262BA563435 /* Release */,
+				41EFEF25249C4B2D904B8040 /* MinSizeRel */,
+				7B667495DBF2470692A0B04D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		520F3788DFAD41C2B91CB4F5 /* Build configuration list for PBXNativeTarget "ext_md5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C81BF4E2BD84F92A976A453 /* Debug */,
+				E8C6DAABE8794282A0DD1975 /* Release */,
+				A74D90DBAD514CE3B2427B12 /* MinSizeRel */,
+				C4512CE4CB9B405E9AC08CB1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8AB5EF82A7A0479EB3DCC5E0 /* Build configuration list for PBXNativeTarget "ext_xxhash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B89FB7B1CA49118EB9C7EC /* Debug */,
+				0026219E4CC34186946DBDFC /* Release */,
+				F244A324AB4E4FA6B238888B /* MinSizeRel */,
+				C5C3A494D5C6483FA558FC72 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		97D811C093314366B4170B88 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445A0F3BD6B340D3ACD10996 /* Debug */,
+				EB459E69C3084CEDA9A2B852 /* Release */,
+				43830FA1EA6F40358B827D1A /* MinSizeRel */,
+				D0FFC5E433154CA0B9FAB539 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9FBC13906D8C47F7B8EC683D /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D1EF9C45944A0699538CAB /* Debug */,
+				EAF960642F3E4AE8AA841BC3 /* Release */,
+				D1983E34221D4B35B8CB3AEA /* MinSizeRel */,
+				46F9B96168EC430F978B6017 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A6725DBD8FBB44458AD33AD8 /* Build configuration list for PBXNativeTarget "ext_recast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07768CCC27D741DA85B65560 /* Debug */,
+				E87A266904BB48B6AA64213D /* Release */,
+				A0870EB48D3643A4B89F7D70 /* MinSizeRel */,
+				4ED296F7015E40C7A8CD4BA6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ACA6EEB39317497AAC557F26 /* Build configuration list for PBXNativeTarget "ext_xxtea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD32BEDEEA5D4B25A2E99757 /* Debug */,
+				9955CF67A1B643E792290FD7 /* Release */,
+				AF3B0F45CE9E48D594248B33 /* MinSizeRel */,
+				FAA546A3572A4449BA8BCF9F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B8370FF97D714D98B2009E77 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8E16F27F444EFD943C3720 /* Debug */,
+				591A32829D514813A6C1A19D /* Release */,
+				A4EA4B5B2A0D4A53B66F3223 /* MinSizeRel */,
+				846CE9D90A25467298B44618 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B92EBD313F674573902BDD2A /* Build configuration list for PBXProject "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE60DFCBE02749A4BBA8B9BB /* Debug */,
+				C88A8454471149F3B65A1325 /* Release */,
+				FF383A884ECA435DA4970E82 /* MinSizeRel */,
+				E99085EA8554420392826CB3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C51D5A1CC73F42A7BB30EAEB /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7185508BAD56400F89CF3832 /* Debug */,
+				4679393B91614FBC949BB140 /* Release */,
+				E57818E933894841940EBEDD /* MinSizeRel */,
+				78A479D809394141AD62BF91 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CA0A29607AFF4542A656E192 /* Build configuration list for PBXNativeTarget "ext_clipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C94D71049E4282B07211F0 /* Debug */,
+				D0D380BD32324249A6840BFF /* Release */,
+				4ABC64846D2E42488FDDF3BF /* MinSizeRel */,
+				B14A5BDAC4CA48598D862AF3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95D3995DFB0047E9BC8684EB /* Project object */;
+}
